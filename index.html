@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz App in Javascript</title>
+    <!-- link for google font -->
+    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- link for custom css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container mydiv" id="mydivid">
+      <h1>JavaScript Quize</h1>
+      <hr>
+      <p id="question">Question</p>
+      <!-- Bootstrap Grid System -->
+      <div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-6">
+    <button id="btn1" class="btn" type="button" name="button" onclick="check('a')">B1</button>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <button id="btn2" class="btn" type="button" name="button" onclick="check('b')">B2</button>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <button id="btn3" class="btn" type="button" name="button" onclick="check('c')">B3</button>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <button id="btn4" class="btn" type="button" name="button" onclick="check('d')">B4</button>
+    </div>
+
+  </div>
+</div>
+
+      <button class="next" type="button" name="button" onclick="increase()">Next</button>
+      <hr>
+      <p id="progress">Progress</p>
+      <p id="score">Score</p>
+
+    </div>
+    <!-- link for javascript -->
+    <script src="main.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
